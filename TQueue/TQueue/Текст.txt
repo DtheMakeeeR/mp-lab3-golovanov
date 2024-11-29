@@ -1,0 +1,27 @@
+TQueue<int> queue;
+
+P-вероятность добавления
+Q-вероятность извлеч
+p<P - добавл
+q<Q - извлек
+********************************
+struct Task{
+	int ProcCount;
+	int StepCount;
+	int Id;
+	...
+}
+struct Proc{
+	bool Busy;
+	int TaskId;
+	int StepCount;
+	int FreeTime;
+	int TaskCount;
+	...
+}
+Vector<Proc> Procs;
+P - вероятность поступления задачи
+
+clrscr();
+gotoxy(x, y);
+clreol();
